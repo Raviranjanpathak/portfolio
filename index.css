@@ -294,7 +294,12 @@ html {
   grid-column: 1 / -1;
 }
 .project {
+  margin-top: 2rem;
+  width: 100%;
+  display: grid;
   grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  padding: 1rem;
 }
 
 @media (max-width: 900px) {
